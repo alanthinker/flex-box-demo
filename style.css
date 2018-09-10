@@ -32,27 +32,22 @@ a {
 	
 }
 .box-tall {
-	height: 800px;
+	height: 300px;
 }
 .box-item {
-	width: 200px;
-	height: 200px;
-	line-height: 200px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 	vertical-align: middle;
 	margin: 5px;
-	background-color: #ffd200;
-	font-size: 100px;
+	background-color: #2222ff;
+	font-size: 32px;
 	color: white;
 	text-align: center;
 }
 .item-tall {
-	height: 400px;
-	line-height: 400px;
-}
-
-
-.box-1 {
-	flex-direction: row;
+	height: 100px;
+	line-height: 100px;
 }
 
 .box-2 {
@@ -102,13 +97,11 @@ a {
 .box-14 {
 	align-items: baseline;
 }
-.box-14 .box-item{
-	font-size: 88px;
+.box-14 .box-item{ 
 	line-height: initial;
 	text-decoration: underline;
 }
-.box-14 .item-tall{
-	font-size: 122px;
+.box-14 .item-tall{ 
 	line-height: initial;
 }
 .box-15 {
@@ -146,33 +139,17 @@ a {
 	height: auto;
 }
 
-.box-22 .order {
-	order: -1;
-}
 .box-item div{
+	display: inline-block;
 	font-size: 14px;
-	position: relative;
-	top: -150px;
 }
 
-.box-23 .box-item{
-	flex-grow: 1;
-	width: auto;
-}
-.box-23	.grow-2 {
-	flex-grow: 2;
+.box-23 .box-item{ 
+	width: 200px;
 }
 
 .box-24 .box-item {
 	width: 400px;
-}
-.box-24 .shrink{
-	flex-shrink: 0;
-}
-
-.box-25 .box-item {
-	flex-basis: 200px;
-	width: 400px; // width 将失去作用
 }
 
 .box-26 {
@@ -180,7 +157,4 @@ a {
 }
 .box-26 .box-item {
 	align-self: flex-start;
-}
-.box-26 .end {
-	align-self: flex-end;
 }
